@@ -1,0 +1,46 @@
+.Services{
+    background-color:var(--primary-bg-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Services h1{
+    width:100vw;
+    text-align: center;
+    color:var(--text-black);
+    background-color:var(--secondry-bg-color);
+    padding:0.5rem 0rem 0.5rem 0rem;
+    
+}
+
+.Service{
+    width:500px;
+    display:flex;
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64c72, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64c72, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin:2rem;
+    float: left;
+    padding:3rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black -5px -5px 10px black;
+}
+.Service .name,
+.Service .info{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.Service .name{
+    font-size: 30px;
+    
+}
+.Service .info{
+    color:var(--text-white);
+    text-shadow: 5px 5px 10px black;
+}
