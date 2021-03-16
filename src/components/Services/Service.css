@@ -10,25 +10,23 @@
 .Services h1{
     width:100vw;
     text-align: center;
-    color:var(--text-black);
-    background-color:var(--secondry-bg-color);
+    color:var(--text-white);
+    background-color:var(--light-bg-color);
     padding:0.5rem 0rem 0.5rem 0rem;
     
 }
 
 .Service{
-    width:500px;
+    width:600px;
+    height: 300px;
     display:flex;
-    background: #ee9ca7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f64c72, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f64c72, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: var(--secondry-bg-color);  /* fallback for old browsers */
     margin:2rem;
     float: left;
-    padding:3rem;
+    padding:2rem;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px black -5px -5px 10px black;
+    box-shadow:10px 10px 15px black;
 }
 .Service .name,
 .Service .info{
@@ -42,5 +40,7 @@
 }
 .Service .info{
     color:var(--text-white);
-    text-shadow: 5px 5px 10px black;
+    font-family: 'redressed';
+    font-size: 22px;
+    padding:2rem;
 }

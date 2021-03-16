@@ -11,7 +11,7 @@
 }
 
 .Hero .hero__info{
-    width:50%;
+    max-width:50%;
     padding:1rem;
 }
 .Hero h1{
