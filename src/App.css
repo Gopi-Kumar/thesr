@@ -6,6 +6,7 @@
   --secondry-bg-color:#f64c72;
   --text-white:white;
   --text-black:black;
+  --light-bg-color:#07097b;
 } */
 :root{
   --primary-bg-color:rgb(10,10,10);
@@ -14,10 +15,15 @@
   --text-black:black;
   --light-bg-color:rgb(20, 20, 20);
 }
+
+
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
   font-family: 'Oswald', sans-serif;
   transition: 0.5s ease;
+}
+body{
+  overflow-x:hidden;
 }
